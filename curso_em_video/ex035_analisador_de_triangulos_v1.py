@@ -2,7 +2,8 @@ print('-=' * 12)
 print('Analisador de Triângulos')
 print('-=' * 12)
 
-s1 = float(input('Primeiro Segmento: '))
+print('\nPasse 3 medidas e descubra se as mesmas conseguem formar um triângulo:')
+s1 = float(input('\nPrimeiro Segmento: '))
 s2 = float(input('Segundo Segmento: '))
 s3 = float(input('Terceiro Segmento: '))
 

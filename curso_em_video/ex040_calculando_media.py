@@ -1,3 +1,5 @@
+# o script vai calcular a situação do aluno baseado nas suas duas notas
+
 n1 = float(input('Primeira nota: '))
 n2 = float(input('Segunda nota: '))
 media = (n1 + n2) / 2

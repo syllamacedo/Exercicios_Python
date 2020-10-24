@@ -4,7 +4,7 @@ ano = int(input('Qual seu ano de nascimento: '))
 atual = date.today().year
 idade = atual - ano
 
-print('Quem nasceu em {} tem {} ano(s) em {}.'.format(ano, idade, atual))
+print('\nQuem nasceu em {} tem {} ano(s) em {}.'.format(ano, idade, atual))
 if idade < 18:
     falta = 18 - idade
     alistamento = atual + falta
