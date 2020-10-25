@@ -8,39 +8,39 @@ print('''Suas opções:
  [ 1 ] PAPEL
  [ 2 ] TESOURA''')
 
-jogador = str(input('Qual é a sua jogada? '))
-if jogador not in '012':
+jogador = int(input('\nQual é a sua jogada? '))
+if jogador not in range(3):
     print('Escolha dentre uma das opções acima.')
-    jogador = int(input('Qual é a sua jogada? '))
+    jogador = int(input('\nQual é a sua jogada? '))
 
-print('JO')
+print('\nJO')
 sleep(1)
 print('KEN')
 sleep(1)
 print('PO!!!')
-print('-=' * 20)
+print('-=' * 12)
 print('Computador jogou {}'.format(jokenpo[pc]))
 print('Jogador jogou {} '.format(jokenpo[jogador]))
-print('-=' * 20)
+print('-=' * 12)
 
 if pc == 0:  # computador jogou PEDRA
     if jogador == 0:
-        print('EMPATE')
+        print('\nEMPATE')
     elif jogador == 1:
-        print('JOGADOR VENCE')
+        print('\nJOGADOR VENCE')
     elif jogador == 2:
-        print('COMPUTADOR VENCE')
+        print('\nCOMPUTADOR VENCE')
 elif pc == 1:  # computador jogou PAPEL
     if jogador == 0:
-        print('COMPUTADOR VENCE')
+        print('\nCOMPUTADOR VENCE')
     elif jogador == 1:
-        print('EMPATE')
+        print('\nEMPATE')
     elif jogador == 2:
-        print('JOGADOR VENCE')
+        print('\nJOGADOR VENCE')
 if pc == 2:  # computador jogou TESOURA
     if jogador == 0:
-        print('JOGADOR VENCE')
+        print('\nJOGADOR VENCE')
     elif jogador == 1:
-        print('COMPUTADOR VENCE')
+        print('\nCOMPUTADOR VENCE')
     elif jogador == 2:
-        print('EMPATE')
+        print('\nEMPATE')

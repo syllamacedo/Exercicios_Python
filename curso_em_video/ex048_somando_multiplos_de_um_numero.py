@@ -1,4 +1,5 @@
-# Soma de valores de um range pré determinado
+# soma de valores de um range pré determinado
+
 soma = 0
 valores = 0
 for n in range(1, 501, 2):

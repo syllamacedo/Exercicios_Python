@@ -6,9 +6,9 @@ limite = 80
 
 if velocidade > limite:
     multa = (velocidade - limite) * valorkm
-    print('Você está acima do limite de velocidade de {} km/h e foi multado.\n'
+    print('\nVocê está acima do limite de velocidade de {} km/h e foi multado.\n'
           'Você deve pagar uma multa de R$ {}!\n'
           'Dirija com segurança!'.format(limite, multa))
 else:
-    print('Você está dentro do limite de velocidade de {} km/h.\n'
+    print('\nVocê está dentro do limite de velocidade de {} km/h.\n'
           'Tenha um bom dia! Dirija com segurança!'.format(limite))

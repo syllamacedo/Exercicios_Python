@@ -2,17 +2,18 @@ print('=-' * 12)
 print('Analisador de Triângulos')
 print('=-' * 12)
 
-l1 = float(input('Digite o valor do Primeiro Segmento: '))
-l2 = float(input('Digite o valor do Segundo Segmento: '))
-l3 = float(input('Digite o valor do Terceiro Segmento: '))
+print('\nPasse 3 medidas e descubra se as mesmas conseguem formar um triângulo:\n')
+s1 = float(input('Digite o valor do Primeiro Segmento: '))
+s2 = float(input('Digite o valor do Segundo Segmento: '))
+s3 = float(input('Digite o valor do Terceiro Segmento: '))
 
-if l1 < l2 + l3 and l2 < l1 + l3 and l3 < l1 + l2:
-    if l1 == l2 == l3:
+if s1 < s2 + s3 and s2 < s1 + s3 and s3 < s1 + s2:
+    if s1 == s2 == s3:
         triangulo = 'EQUILÁTERO'
-    elif l1 != l2 != l3 != l1:
+    elif s1 != s2 != s3 != s1:
         triangulo = 'ESCALENO'
     else:
         triangulo = 'ISÓSCELES'
-    print('Esses segmentos podem formar um triângulo {}.'.format(triangulo))
+    print('\nEsses segmentos podem formar um triângulo {}.'.format(triangulo))
 else:
-    print('Esses segmentos NÃO podem formar um triângulo.')
+    print('\nEsses segmentos NÃO podem formar um triângulo.')

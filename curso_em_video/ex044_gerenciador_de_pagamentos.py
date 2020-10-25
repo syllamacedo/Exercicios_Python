@@ -1,10 +1,13 @@
+# o script vai receber a entrada de um valor 
+# e informar as opções para pagamento do mesmo, pedindo que o usuário escolha dentre uma delas
+
 preco = float(input('Digite o valor do produto: R$ '))
-print('''FORMAS DE PAGAMENTO
+print('''\nFORMAS DE PAGAMENTO
 [ 1 ] A vista dinheiro ou cheque - 10% de desconto
 [ 2 ] A vista cartão - 5% de desconto
 [ 3 ] Parcelado em 2x no cartão
 [ 4 ] Parcelado em 3x ou mais vezes - 20% de juros''')
-opcao = int(input('Qual será sua forma de pagamento: '))
+opcao = int(input('\nQual será sua forma de pagamento: '))
 
 if opcao == 1:
     valor = preco - ((preco * 10) / 100)
