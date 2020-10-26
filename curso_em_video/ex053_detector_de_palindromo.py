@@ -1,11 +1,18 @@
-frase = str(input('Digite uma frase: ')).strip().upper()
-palavras = frase.split()
-junto = ''.join(palavras)
+string = str(input('Digite uma palavra ou frase: ')).strip().upper()
+letras = string.split()
+tudojunto = ''.join(letras)
 inverso = ''
-for letra in range(len(junto) - 1, -1, -1):
-    inverso += junto[letra]
-print('O inverso de {} é {}.'.format(junto, inverso))
-if inverso == junto:
-    print('Essa frase é um PALÍNDROMO!')
+
+if len(letras) == 1:
+    definicao = 'palavra'
 else:
-    print('A frase digitada NÃO É um palíndromo.')
+    definicao = 'frase'
+
+for l in range(len(tudojunto) - 1, -1, -1):
+    inverso += tudojunto[l]
+print('\nO inverso de {} é {}.'.format(tudojunto, inverso))
+
+if inverso == tudojunto:
+    print('Essa {} é um PALÍNDROMO!'.format(definicao))
+else:
+    print('A {} digitada NÃO É um palíndromo.'.format(definicao))
