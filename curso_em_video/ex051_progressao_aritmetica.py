@@ -6,7 +6,7 @@ termo = int(input('Primeiro termo: '))
 razao = int(input('Razão: '))
 
 print(termo, ' -> ', end=' ')
-for n in range(0, 9):
+for n in range(10):
     termo = termo + razao
     print(termo, ' -> ', end=' ')
 print('ACABOU')
