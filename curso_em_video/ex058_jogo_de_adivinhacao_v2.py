@@ -10,9 +10,9 @@ print('         DESAFIO DE ADIVINHAÇÃO')
 print('-=' * 20)
 print('Vou escolher um número de 0 a 10, acha que consegue adivinhar qual vai ser?')
 print('.')
-sleep(2)
+sleep(1)
 print('.')
-sleep(2)
+sleep(1)
 print('.')
 
 while not acertou:
@@ -27,6 +27,6 @@ while not acertou:
             print('Tente um número menor.')
 
 if palpites == 1:
-    print('Você ACERTOU DE PRIMEIRA! Você é um Mestre da Adivinhação.')
+    print('\nVocê ACERTOU DE PRIMEIRA! Você é um Mestre da Adivinhação.')
 else:
-    print('Você ACERTOU após {} tentativas. PARABÉNS!'.format(palpites))
+    print('\nVocê ACERTOU após {} tentativas. PARABÉNS!'.format(palpites))
