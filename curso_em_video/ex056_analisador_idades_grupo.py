@@ -8,12 +8,16 @@ media = mulhermenor20 = homemvelho = 0
 print('-=' * 20)
 
 for n in range(1, 5):
+
     print('Informações sobre o {}o indivíduo:'.format(n))
+
     nome = str(input('Nome: '))
     idade = int(input('Idade: '))
     media += idade
     sexo = str(input('Sexo: [M] ou [F] - ').upper())
+
     print('-=' * 20)
+
     if sexo == 'F':
         if idade < 20:
             mulhermenor20 += 1
