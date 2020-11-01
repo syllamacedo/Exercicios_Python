@@ -1,4 +1,4 @@
-# o script recebe como entrada uma quantidade x de números
+# o script recebe como entrada uma quantidade n de números
 # retorna a soma e quantidade de numeros recebidos
 
 cont = soma = 0
