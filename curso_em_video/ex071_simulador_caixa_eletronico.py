@@ -45,8 +45,7 @@ while True:
             break
 
     resto = valor - ((total_nota1 * nota1) + (total_nota2 * nota2) + (total_nota3 * nota3))
-
-    if resto > 0:
-        print(f'Total de {resto} cédulas de R${nota4}.')
+    total_nota4 = resto // nota4
+    print(f'Total de {total_nota4} cédulas de R${nota4}.')
 
     break
