@@ -1,4 +1,4 @@
-# foi feita uma adaptação nesse exercicio, ao inves de ser uma tupla com palavras
+# foi feita uma adaptação nesse exercicio, ao inves de ser uma tupla com palavras predeterminadas
 # o programa vai pedir que o usuario digite 3 palavras
 # e ao final vai mostrar quantas vogais tem em cada uma
 
