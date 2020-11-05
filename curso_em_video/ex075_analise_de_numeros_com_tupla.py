@@ -1,7 +1,11 @@
-num = (int(input('Digite um número: ')),
-       int(input('Digite outro número: ')),
-       int(input('Digite mais um número: ')),
-       int(input('Digite o último número: ')))
+# o script vai analisar 4 numeros recebidos
+# no final vai mostrar quais foram, quantas vezes aparece o valor 9
+# se foi digitado o numero 3 e quantos valores pares tem
+
+num = (int(input('Digite o 1o número: ')),
+       int(input('Digite o 2o número: ')),
+       int(input('Digite o 3o número: ')),
+       int(input('Digite o 4o número: ')))
 
 print(f'\nVocê digitou os valores {num}.')
 print(f'\nO valor 9 apareceu {num.count(9)} vezes.')
