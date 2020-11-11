@@ -1,5 +1,6 @@
 num = int(input('Digite um número inteiro: '))
 primo = 0
+
 print()
 for n in range(1, num + 1):
     if num % n == 0:

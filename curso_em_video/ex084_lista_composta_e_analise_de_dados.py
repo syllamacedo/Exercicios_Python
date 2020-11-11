@@ -2,11 +2,9 @@
 # ao final vai retornar quantas pessoas foram cadastradas
 # o nome e peso dos individuos com maior e menor peso
 
-lista = []
-pessoas = []
+lista, pessoas = [], []
 maior = menor = 0
-pesado = []
-leve = []
+pesado, leve = [], []
 
 while True:
     pessoas.append(str(input('Nome: ')))

@@ -1,8 +1,7 @@
 # o script vai receber a entrada de n valores inteiros
 # ao final vai mostrar a lista completa, lista com numeros pares e lista com numeros impares
 
-listapar = []
-listaimpar = []
+listapar, listaimpar = [], []
 num = 0
 
 while True:

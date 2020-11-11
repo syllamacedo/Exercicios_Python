@@ -1,6 +1,5 @@
 num = int(input('Quantos termos você quer mostrar: '))
-t1 = 0
-t2 = 1
+t1, t2 = 0, 1
 
 print('-=' * 20)
 print('\n{} -> {}'.format(t1, t2), end='')

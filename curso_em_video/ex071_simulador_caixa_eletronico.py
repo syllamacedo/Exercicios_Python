@@ -8,10 +8,7 @@ print('=' * 30)
 print('{:^30}'.format('BANCO COMUM'))
 print('=' * 30)
 
-nota1 = 50
-nota2 = 20
-nota3 = 10
-nota4 = 1
+nota1, nota2, nota3, nota4 = 50, 20, 10, 1
 
 print(f'Notas disponíveis: {nota1} - {nota2} - {nota3} - {nota4}')
 

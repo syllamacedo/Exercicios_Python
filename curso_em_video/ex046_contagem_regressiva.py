@@ -1,4 +1,4 @@
-# contador para o final do ano
+# o programa simula um contador para o final do ano
 
 from time import sleep
 for n in range(10, -1, -1):
