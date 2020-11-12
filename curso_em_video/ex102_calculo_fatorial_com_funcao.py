@@ -6,6 +6,7 @@ def fatorial(n, show=False):
     :return: o valor do fatorial
     """
     f = 1
+
     for c in range(n, 0, -1):
         if show:
             print(c, end='')
@@ -14,6 +15,7 @@ def fatorial(n, show=False):
             else:
                 print(' = ', end='')
         f *= c
+
     return f
 
 

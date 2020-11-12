@@ -3,13 +3,16 @@ from time import sleep
 
 def maior(*num):
     maiornum = 0
+
     print('-=' * 20)
     print('Analisando os valores passados...')
+
     for n in num:
         print(f'{n}', end=' ')
         sleep(0.5)
         if n >= maiornum:
             maiornum = n
+
     print(f'\nForam informados {len(num)} valores ao todo.')
     print(f'O maior valor informado foi {maiornum}.')
 

@@ -13,6 +13,7 @@ def notas(*notas, sit=False):
     aluno['maior'] = max(notas)
     aluno['menor'] = min(notas)
     aluno['media'] = sum(notas)/len(notas)
+
     if sit:
         if aluno['media'] < 5.0:
             aluno['situacao'] = 'RUIM'

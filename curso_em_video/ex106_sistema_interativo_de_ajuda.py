@@ -1,5 +1,6 @@
 def ajuda(comando):
     from time import sleep
+
     if comando == 'fim':
         print('~~' * 25)
         return 'Até Logo!'
@@ -16,7 +17,9 @@ while True:
     print('~~' * 25)
     print('Sistema de ajuda PyHELP')
     print('~~' * 25)
+
     c = ajuda(input('Função ou biblioteca: ').lower().strip())
+
     print(c)
     if c == 'Até Logo!':
         break
