@@ -1,22 +1,22 @@
 dados = dict()
-golpart = []
+gols_partida = []
 
-dados['nome'] = str(input('Nome do jogador: '))
-part = int(input(f'Quantas partidas {dados["nome"]} jogou? '))
+dados['Nome'] = str(input('Nome do jogador: '))
+partidas = int(input(f'Quantas partidas {dados["Nome"]} jogou? '))
 
-for n in range(1, (part+1)):
-    golpart.append(int(input(f'    Quantos gols na partida {n}? ')))
+for n in range(1, (partidas+1)):
+    gols_partida.append(int(input(f'    Quantos gols na partida {n}? ')))
 
-dados['gols'] = golpart.copy()
-dados['total'] = sum(golpart)
+dados['Gols'] = gols_partida.copy()
+dados['Total'] = sum(gols_partida)
 
 print('-=' * 30)
 for k, v in dados.items():
-    print(f'O campo {k} tem o valor {v}.')
+    print(f'{k}: {v}')
 
 print('-=' * 30)
-print(f'O jogador {dados["nome"]} jogou {part} partidas.')
+print(f'O jogador {dados["Nome"]} jogou {partidas} partidas.')
 
-for i, v in enumerate(dados['gols']):
-    print(f'    ==> Na partida {i + 1}, fez {v} gols.')
-print(f'Foi um total de {dados["total"]} gols.')
+for i, v in enumerate(dados['Gols']):
+    print(f'    ==> Na partida {i + 1}, fez {v} gols:')
+print(f'Fez um total de {dados["Total"]} gols.')
