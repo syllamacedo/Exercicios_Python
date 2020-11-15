@@ -1,5 +1,5 @@
-# o script lê o salario atual e retorna com o novo valor
-# aumento: 15% para salarios até R$1250 e 10% para valores acima
+# Exercício Python 34: Escreva um programa que pergunte o salário de um funcionário e calcule o valor do seu aumento.
+# Para salários superiores a R$1250,00, calcule um aumento de 10%. Para os inferiores ou iguais, o aumento é de 15%.
 
 salario = float(input('Qual o valor do seu salário: R$ '))
 salario_base = 1250
