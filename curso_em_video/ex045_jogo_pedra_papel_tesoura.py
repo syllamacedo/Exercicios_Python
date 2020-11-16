@@ -1,6 +1,4 @@
-# o programa faz a simulacao de um jogo de pedra, papel e tesoura
-# recebe como entrada qual a opcao o usuario deseja jogar
-# faz a simulacao do jogo e ao final mostra quem venceu (computador ou usuario)
+# Exercício Python 45: Crie um programa que faça o computador jogar Jokenpô com você.
 
 from random import randint
 from time import sleep
@@ -24,6 +22,7 @@ sleep(1)
 print('KEN')
 sleep(1)
 print('PO!!!')
+sleep(0.5)
 print('-=' * 12)
 print('Computador jogou {}'.format(jokenpo[pc]))
 print('Jogador jogou {} '.format(jokenpo[jogador]))
