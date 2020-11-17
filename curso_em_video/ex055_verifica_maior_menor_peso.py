@@ -1,10 +1,11 @@
-# o script recebe como entrada o peso de 6 pessoas
-# no final retorna qual foi o maior e o menor peso
+# Exercício Python 55: Faça um programa que leia o peso de cinco pessoas.
+# No final, mostre qual foi o maior e o menor peso lidos.
 
 maior = menor = peso = 0
 
 for n in range(1, 6):
     peso = float(input('Digite o peso da {}a pessoa (0.0): '.format(n)))
+
     if n == 1:
         maior = peso
         menor = peso

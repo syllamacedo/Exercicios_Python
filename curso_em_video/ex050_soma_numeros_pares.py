@@ -1,5 +1,5 @@
-# o script pede para o usuário digitar 6 valores
-# ao final será dito quantos número pares foram digitados e a soma dos mesmos
+# Exercício Python 50: Desenvolva um programa que leia seis números inteiros e mostre a soma apenas daqueles
+# que forem pares. Se o valor digitado for ímpar, desconsidere-o.
 
 soma = cont = 0
 
