@@ -1,6 +1,6 @@
-# script que vai simular um jogo de par ou impar
-# o programa só será interrompido quando o jogador perder
-# ao final será mostrado o numero de vitorias do jogador
+# Exercício Python 68: Faça um programa que jogue par ou ímpar com o computador.
+# O jogo só será interrompido quando o jogador perder,
+# mostrando o total de vitórias consecutivas que ele conquistou no final do jogo.
 
 from random import randrange
 
