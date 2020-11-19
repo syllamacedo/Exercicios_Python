@@ -1,5 +1,5 @@
-# o script ao iniciar vai fazer o sorteio de 5 numero de 0 a 10
-# depois de mostrar os numeros sorteados, vai indicar o menor e maior valor
+# Exercício Python 074: Crie um programa que vai gerar cinco números aleatórios e colocar em uma tupla.
+# Depois disso, mostre a listagem de números gerados e também indique o menor e o maior valor que estão na tupla.
 
 from random import randint
 from time import sleep

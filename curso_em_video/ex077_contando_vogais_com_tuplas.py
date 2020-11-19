@@ -1,6 +1,5 @@
-# foi feita uma adaptação nesse exercicio, ao inves de ser uma tupla com palavras predeterminadas
-# o programa vai pedir que o usuario digite 3 palavras
-# e ao final vai mostrar quantas vogais tem em cada uma
+# Exercício Python 077: Crie um programa que tenha uma tupla com várias palavras (não usar acentos).
+# Depois disso, você deve mostrar, para cada palavra, quais são as suas vogais.
 
 print(f'{"Contador de Vogais":^30}')
 print('-=' * 15)

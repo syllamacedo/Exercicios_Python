@@ -1,6 +1,8 @@
-# o script vai analisar 4 numeros recebidos
-# no final vai mostrar quais foram, quantas vezes aparece o valor 9
-# se foi digitado o numero 3 e quantos valores pares tem
+# Exercício Python 075: Desenvolva um programa que leia quatro valores pelo teclado e guarde-os em uma tupla.
+# No final, mostre:
+# A) Quantas vezes apareceu o valor 9.
+# B) Em que posição foi digitado o primeiro valor 3.
+# C) Quais foram os números pares.
 
 num = (int(input('Digite o 1o número: ')),
        int(input('Digite o 2o número: ')),

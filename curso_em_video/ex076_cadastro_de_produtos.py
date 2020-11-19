@@ -1,6 +1,5 @@
-# foi feita uma adaptação nesse exercicio, ao inves de ser uma tupla com valores predeterminados
-# o programa vai receber do usuario o cadastro do nome e preco de 5 produtos
-# ao final vai exibir a listagem dos mesmos
+# Exercício Python 076: Crie um programa que tenha uma tupla única com nomes de produtos e seus respectivos preços,
+# na sequência. No final, mostre uma listagem de preços, organizando os dados em forma tabular.
 
 print('-=' * 20)
 print(f'{"Programa de cadastro de Produtos":^40}')
