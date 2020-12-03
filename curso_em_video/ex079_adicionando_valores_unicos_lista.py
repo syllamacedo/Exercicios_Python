@@ -1,6 +1,6 @@
-# o programa vai pedir ao usuario que digite um valor inteiro
-# nao serao aceitos valores duplicados
-# ao final sera mostrado de forma ordenada quais valores foram adicionados
+# Exercício Python 079: Crie um programa onde o usuário possa digitar vários valores numéricos e
+# cadastre-os em uma lista. Caso o número já exista lá dentro, ele não será adicionado.
+# No final, serão exibidos todos os valores únicos digitados, em ordem crescente.
 
 listanum = []
 

@@ -1,6 +1,6 @@
-# o programa vai receber 5 numeros e conforme sao recebidos, serao colocados em ordem
-# apos receber o valor, vai informar em qual posicao o numero esta sendo adicionado
-# nao pode ser utilizado o metodo sort
+# Exercício Python 080: Crie um programa onde o usuário possa digitar cinco valores numéricos e cadastre-os em
+# uma lista, já na posição correta de inserção (sem usar o sort()).
+# No final, mostre a lista ordenada na tela.
 
 lista = []
 

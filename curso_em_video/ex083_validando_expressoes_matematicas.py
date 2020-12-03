@@ -1,10 +1,9 @@
-# o programa vai analisar uma expressao matematica recebida
-# vai realizar uma validacao com base na quantidade de parenteses abertos e fechados
-# se a expressao tiver a mesma quantidade de '(' e ')' sera considerada como valida
+# Exercício Python 083: Crie um programa onde o usuário digite uma expressão qualquer que use parênteses.
+# Seu aplicativo deverá analisar se a expressão passada está com os parênteses abertos e fechados na ordem correta.
 
-exp = str(input('Digite a expressão: '))
+expressao = str(input('Digite a expressão: '))
 
-if exp.count('(') == exp.count(')'):
+if expressao.count('(') == expressao.count(')'):
     print('Sua expressão é válida.')
 else:
     print('Sua expressão não é válida.')

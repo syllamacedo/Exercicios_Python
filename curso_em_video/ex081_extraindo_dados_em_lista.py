@@ -1,18 +1,20 @@
-# o script vai receber como entrada n valores inteiros
-# ao final vai mostrar quantos valores foram digitados
-# vai coloca-los em ordem descrescente e verificar se o numero 5 foi encontrado
+# Exercício Python 081: Crie um programa que vai ler vários números e colocar em uma lista.
+# Depois disso, mostre:
+# A) Quantos números foram digitados.
+# B) A lista de valores, ordenada de forma decrescente.
+# C) Se o valor 5 foi digitado e está ou não na lista.
 
 lista = []
 
 while True:
     lista.append(int(input('Digite um valor inteiro: ')))
 
-    cont = ' '
+    continuar = ' '
 
-    while cont not in 'SN':
-        cont = str(input('Deseja continuar [S/N]? ')).strip().upper()
+    while continuar not in 'SN':
+        continuar = str(input('Deseja continuar [S/N]? ')).strip().upper()
 
-    if cont == 'N':
+    if continuar == 'N':
         break
 
 lista.sort(reverse=True)
