@@ -1,6 +1,7 @@
-# o script vai receber o nome e 2 notas de n alunos
-# apos termino do cadastro o programa vai retornar a quantidade de alunos, nome e media de cada
-# no final o usuario vai poder selecionar qual aluno deseja ver as notas
+# Exercício Python 089: Crie um programa que leia nome e duas notas de vários alunos e
+# guarde tudo em uma lista composta.
+# No final, mostre um boletim contendo a média de cada um e permita que o usuário possa mostrar
+# as notas de cada aluno individualmente.
 
 from time import sleep
 

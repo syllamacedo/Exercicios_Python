@@ -1,6 +1,6 @@
-# o programa vai simular a criacao de um jogo para mega-sena
-# o numero de jogos a serem criados vai ser determinado pelo usuario
-# no final o programa vai retornar a quantidade de jogos e os numeros de cada
+# Exercício Python 088: Faça um programa que ajude um jogador da MEGA SENA a criar palpites.
+# O programa vai perguntar quantos jogos serão gerados e vai sortear 6 números entre 1 e 60 para cada jogo,
+# cadastrando tudo em uma lista composta.
 
 from random import randrange
 from time import sleep

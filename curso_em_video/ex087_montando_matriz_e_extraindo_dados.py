@@ -1,8 +1,7 @@
-# semelhante ao feito no exercicio 85,
-# o script vai receber valores inteiros para as respectivas posicoes de uma matriz
-# a matriz tera 3 linhas e 3 colunas
-# ao final vai ser mostrado ao usuario como ficou a disposição da matriz com os valores
-# e a soma dos valores pares, soma dos valores da 3a coluna e o maior valor da 2a linha
+# Exercício Python 087: Aprimore o desafio anterior, mostrando no final:
+# A) A soma de todos os valores pares digitados
+# B) A soma dos valores da terceira coluna.
+# C) O maior valor da segunda linha.
 
 matriz = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
 pares = somacoluna = maior = 0

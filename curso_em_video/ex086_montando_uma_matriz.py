@@ -1,6 +1,6 @@
-# o script vai receber valores inteiros para as respectivas posicoes de uma matriz
-# a matriz tera 3 linhas e 3 colunas
-# ao final vai ser mostrado ao usuario como ficou a disposição da matriz com os valores
+# Exercício Python 086: Crie um programa que declare uma matriz de dimensão 3×3 e
+# preencha com valores lidos pelo teclado.
+# No final, mostre a matriz na tela, com a formatação correta.
 
 matriz = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
 
