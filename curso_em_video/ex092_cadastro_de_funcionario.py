@@ -1,7 +1,8 @@
-# o script vai receber os dados de um funcionario
-# se o usuario passar numero de carteira de trabalho, serao pedidos mais dados
-# ao final o programa vai mostrar os dados do funcionario
-# se tiver carteira de trabalho, sera indicado se já é aposentado ou quanto tempo falta
+# Exercício Python 092: Crie um programa que leia nome, ano de nascimento e carteira de trabalho e
+# cadastre-o (com idade) em um dicionário.
+# Se por acaso a CTPS for diferente de ZERO, o dicionário receberá também o ano de contratação e o salário.
+# Calcule e acrescente, além da idade, com quantos anos a pessoa vai se aposentar.
+#
 # o tempo de contribuicao considerado foi de 35 anos
 
 from datetime import datetime
