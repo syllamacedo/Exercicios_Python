@@ -1,3 +1,11 @@
+# Exercício Python 094: Crie um programa que leia nome, sexo e idade de várias pessoas,
+# guardando os dados de cada pessoa em um dicionário e todos os dicionários em uma lista.
+# No final, mostre:
+# A) Quantas pessoas foram cadastradas
+# B) A média de idade
+# C) Uma lista com as mulheres
+# D) Uma lista de pessoas com idade acima da média
+
 dados = dict()
 dadosfinal = []
 media = 0
@@ -26,26 +34,22 @@ while True:
 
     if resp == 'N':
         break
+    print()
 
 print('-='*30)
-print(f'- O grupo tem {len(dadosfinal)} pessoas.\n'
-      f'- A média de idade é de {media:5.1f}.\n'
+print(f'- O grupo tem {len(dadosfinal)} pessoas\n'
+      f'- A média de idade é de {media:.1f}\n'
       f'- As mulheres cadastradas foram: ', end='')
 
 for n in dadosfinal:
     if n['sexo'] == 'F':
         print(f'{n["nome"]};', end=' ')
 
-print(f'\n- Lista das pessoas que estão acima da média: ')
+print(f'\n- Lista das pessoas que estão acima da média:\n')
 
 for n in dadosfinal:
-    if n['idade'] > media:
-        for k, v in n.items():
-            print(f'{k} = {v};', end=' ')
+   if n['idade'] > media:
+       print(f'Nome = {n["nome"]}; Sexo = {n["idade"]}; Idade = {n["idade"]};')
 
-# FORMA PARA FICAR MAIS BONITA A FORMATAÇÃO
-# for n in dadosfinal:
-#    if n['idade'] > media:
-#        print(f'\nNome = {n["nome"]}; Sexo = {n["idade"]}; Idade = {n["idade"]};')
-
-print('\n<< ENCERRADO >>')
+print()
+print('<< ENCERRADO >>')
