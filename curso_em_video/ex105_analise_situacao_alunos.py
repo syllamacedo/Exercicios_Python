@@ -1,5 +1,10 @@
-from typing import Dict, Any, Union
-
+# Exercício Python 105: Faça um programa que tenha uma função notas() que pode receber várias notas de alunos e
+# vai retornar um dicionário com as seguintes informações:
+# – Quantidade de notas
+# – A maior nota
+# – A menor nota
+# – A média da turma
+# – A situação (opcional)
 
 def notas(*notas, sit=False):
     """
@@ -8,7 +13,7 @@ def notas(*notas, sit=False):
     :param sit: valor opcional, indicando ou não se deve mostrar a situação
     :return: dicionário com várias informações sobre a situação da turma
     """
-    aluno: Dict[str, Union[Union[int, float, str], Any]] = {}
+    aluno = dict()
     aluno['total'] = len(notas)
     aluno['maior'] = max(notas)
     aluno['menor'] = min(notas)
@@ -17,12 +22,13 @@ def notas(*notas, sit=False):
     if sit:
         if aluno['media'] < 5.0:
             aluno['situacao'] = 'RUIM'
-        elif aluno['media'] > 7:
+        elif aluno['media'] >= 7:
             aluno['situacao'] = 'BOA'
         else:
             aluno['situacao'] = 'RAZOAVEL'
     return aluno
 
 
-resp = notas(9, 10, 3, 4, 10, sit=True)
+# Programa Principal
+resp = notas(5.5, 2.5, 10, 4, 10, sit= True)
 print(resp)
